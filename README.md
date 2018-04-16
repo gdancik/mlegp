@@ -1,4 +1,4 @@
-#mlegp: Maximum Likelihood Estimates of Gaussian Processes #
+#mlegp: Maximum Likelihood Estimates of Gaussian Processes 
 
 Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots following Santner et al (2003) <doi:10.1007/978-1-4757-3799-8>. Contact the maintainer for a package version that includes sensitivity analysis.
 
