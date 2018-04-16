@@ -1,0 +1,38 @@
+3.1.4 (11/9/2013)
+Updated contact info
+
+3.1.3 (12/10/2012)
+.First.lib no longer supported for loading compiled code; use .onLoad instead
+
+3.1.2 (4/4/2011)
+Remove vignette makefile for compatibility with new version of Sweave
+
+3.1.1 (5/5/2009)
+Updated contact info
+
+3.1.0 (7/27/2009)
+User can now specify nugget matrix exactly; when replicate runs are available, mlegp can fit a GP to sample means and use a plug-in estimate for the nugget, unless a nugget matrix is specified. 
+
+Because package adapt is archived, all SA functions have been removed. A full version of mlegp, which includes SA functionality, is available from by e-mailing dancikg@easternct.edu.
+
+2.2.6 (2/25/2009)
+No changes to mlegp functionality; Changed PKG_LIBS in Makevars.win 
+
+2.2.5 (12/19/2008)
+Updated contact information
+
+2.2.4 (4/24/2008)
+Makevars files use PKG_CPPFLAGS instead of PKGCFLAGS
+
+2.2.1 (2/1/2008)
+If var-cov becomes singular in BFGS method, we will use estimates from simplex method
+2.2 (12/26/2007)
+We should not use absolute tolerance in simplex method; set abs.tol to -DBL_MAX to prevent early exit in nelder_mead.c
+
+2.0 (12/7/2007)
+Removed dependence on GSL; uses R BLAS libraries for linear algebra routines
+
+1.1 (10/6/2007)
+Windows binary now available. However, user will have to download gsl and gslcblas dlls and put them on the path for mlegp to load
+
+
