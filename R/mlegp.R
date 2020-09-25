@@ -226,6 +226,7 @@ mlegp2 <- function(ZZ, XX, orig.XX, nugget, nugget.known, reps, un.sum, numEstim
 		nugget = nugget * estimates[numParams+2]
 	    }
 	    else {
+
 		if (nugget > 0 && nugget.known == 0) {
 			nugget = estimates[numParams+2]
 		}

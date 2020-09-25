@@ -22,7 +22,7 @@ plotObservedEffects(x, ...)
 
 	if \code{x} is of class \code{gp}, the specified columns of the design matrix of \code{x} will be plotted against the the observations
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \note{ It is often useful to use this function before fitting the gaussian process, to check that the observations
 	are valid 

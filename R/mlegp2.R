@@ -66,16 +66,17 @@ mlegp2 <- function(ZZ, XX, orig.XX, nugget, nugget.known, reps, un.sum, numEstim
 	    if (is.null(nugget)) nugget = 0
 
 	    if (length(nugget) > 1 && nugget.known == 0) {
-		if (verbose > 0) {
-			cat(paste("nugget matrix will be scaled by: ", estimates[numParams+2]))
-			cat("\n")
-		}
-		nugget = nugget * estimates[numParams+2]
+		    if (verbose > 0) {
+			    cat(paste("nugget matrix will be scaled by: ", estimates[numParams+2]))
+			    cat("\n")
+		    }
+		    nugget = nugget * estimates[numParams+2]
 	    }
 	    else {
-		if (nugget > 0 && nugget.known == 0) {
-			nugget = estimates[numParams+2]
-		}
+
+		    if ((length(nugget) > 1 || nugget > 0) && nugget.known == 0) {
+			    nugget = estimates[numParams+2]
+		    }
 	    }
 	
 

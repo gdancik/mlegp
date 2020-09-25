@@ -18,7 +18,7 @@ is.gp.list(x)
 
   \code{is.gp.list} returns \code{TRUE} or \code{FALSE}, depending on whether its argument inherits the \code{gp.list} class or not
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \examples{
 ## fit a single Gaussian process ##

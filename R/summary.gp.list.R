@@ -9,7 +9,7 @@ function(object, nums = NULL, ...) {
 		cat ("\nDimensions: ")
 		cat (object$numDim)
 		cat ("\n\n")
-		return 
+		return() 
 	}
 
 	for (i in nums) {

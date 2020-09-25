@@ -34,7 +34,7 @@
   \item{fit}{vector as above}
   \item{se.fit}{standard error of the predictions}
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \note{ for predictions with \code{gp.list} objects, call \code{predict.gp} separately for each gp in the list
 }

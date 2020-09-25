@@ -16,7 +16,7 @@
 \details{
   prints a summary of the Gaussian process object \code{x}, by calling \code{summary.gp}
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \seealso{ \code{\link{summary.gp} for more description of the output} }
 \examples{

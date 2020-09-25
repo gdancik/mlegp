@@ -22,7 +22,7 @@ uniqueSummary(X,Y)
 	\item{uniqueMeans}{sample means corresponding to each unique input}
 	\item{uniqueVar}{sample variances corresponding to each unique input}
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \examples{
 x = c(1,1,2,2,3)

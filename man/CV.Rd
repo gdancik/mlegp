@@ -21,7 +21,7 @@ CV(gp, predictObserved = TRUE, verbose = FALSE)
 \value{
   a matrix where the first column corresponds to the cross-validated predictions and the second column corresponds to the variance of the cross-validated predictions
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \seealso{ \code{\link{predict.gp}} }
 \examples{

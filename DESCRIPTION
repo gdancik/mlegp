@@ -1,8 +1,8 @@
 Package: mlegp
 Type: Package
 Title: Maximum Likelihood Estimates of Gaussian Processes
-Version: 3.1.7
-Date: 2018-01-29
+Version: 3.1.8
+Date: 2020-09-22
 Author: Garrett M. Dancik
 Maintainer: Garrett M. Dancik <dancikg@easternct.edu>
 Suggests: snowfall

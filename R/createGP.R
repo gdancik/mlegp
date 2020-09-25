@@ -29,7 +29,8 @@ function(X, Z, beta, a, meanReg, sig2, nugget,
         	gp$invVarMatrix = try(solve(calcVarMatrix(X, beta, a, nugget,sig2,0, dim(X)[1])),TRUE)
 		orig.nugget = nugget
 		count = 1
-		while(class(gp$invVarMatrix) == "try-error" && count < 1000) {
+
+		while(any(class(gp$invVarMatrix) == "try-error") && count < 1000) {
 			nugget = 2*nugget + 1e-7
         		gp$invVarMatrix = try(solve(calcVarMatrix(X, beta, a, nugget,sig2,0, dim(X)[1])),TRUE)
 			count = count + 1

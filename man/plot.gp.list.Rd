@@ -24,7 +24,7 @@ Where relevant, open circles correspond to Gaussian process output, black lines 
 
 For each Gaussian process in \code{x}, \code{plot.gp} is called using graph type 1, which plots cross-validated predictions vs. observed values.
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \seealso{ \code{\link{plot.gp}}, \code{\link{CV}} }
 \examples{

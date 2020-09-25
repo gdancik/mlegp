@@ -24,7 +24,7 @@ setGPNames(x, s)
 \value{
   the object \code{x} with parameter or Gaussian process names set   
 }
-\references{ \url{http://www1.easternct.edu/dancikg/} }
+\references{ \url{https://github.com/gdancik/mlegp/} }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }
 \note{
 Parameter and Gaussian process names are used in the output of various plotting functions. Both of these can also be set when the Gaussian process (list) is created by \code{\link{mlegp}}

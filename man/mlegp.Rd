@@ -62,7 +62,10 @@ Santner, T.J. Williams, B.J., Notz, W., 2003. The Design and Analysis of Compute
 
 Heitmann, K., Higdon, D., Nakhleh, C., Habib, S., 2006. Cosmic Calibration. The Astrophysical Journal, 646, 2, L1-L4.
 
-\url{http://www1.easternct.edu/dancikg/} 
+Dancik, GM and Dorman, KS (2008). mlegp: statistical analysis for
+computer models of biological systems using R. Bioinformatics 24(17), pp. 1966-1967
+
+\url{https://github.com/gdancik/mlegp/} 
 
 }
 \author{ Garrett M. Dancik \email{ dancikg@easternct.edu } }

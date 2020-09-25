@@ -34,7 +34,7 @@ Schonlau, M. and Welch, W. 2006. Screening the Input Variables to a Computer Mod
  
 Heitmann, K., Higdon, D., Nakhleh, C., Habib, S., 2006. Cosmic Calibration. The Astrophysical Journal, 646, 2, L1-L4.
 
-\url{http://www1.easternct.edu/dancikg/} 
+\url{https://github.com/gdancik/mlegp/} 
 
 }
 \keyword{ package }
