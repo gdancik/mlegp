@@ -1,10 +1,11 @@
 Package: mlegp
 Type: Package
 Title: Maximum Likelihood Estimates of Gaussian Processes
-Version: 3.1.8
-Date: 2020-09-22
+Version: 3.1.9
+Date: 2022-03-07
 Author: Garrett M. Dancik
 Maintainer: Garrett M. Dancik <dancikg@easternct.edu>
+Depends: methods
 Suggests: snowfall
 Description: Maximum likelihood Gaussian process modeling for
         univariate and multi-dimensional outputs with diagnostic plots 
@@ -12,8 +13,7 @@ Description: Maximum likelihood Gaussian process modeling for
         Contact the maintainer for a package version that includes 
         sensitivity analysis.
 License: GPL (>= 2)
+Encoding: UTF-8
 URL:
-Repository: CRAN
-Date/Publication: 2012-12-20 19:11:33
-Packaged: 2018-04-14 17:07:16 UTC; dancikg
 NeedsCompilation: yes
+RoxygenNote: 7.1.1
