@@ -13,3 +13,4 @@ S3method(summary, gp.list)
 
 importFrom("graphics", "abline", "hist", "lines", "par", "plot")
 importFrom("stats", "qqline", "qqnorm", "var")
+importFrom("methods", "is")

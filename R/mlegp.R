@@ -71,7 +71,7 @@ function(X, Z, constantMean = 1, nugget = NULL, nugget.known = 0, min.nugget = 0
 		ones = rep(1,dim(X)[1])
 		dX = cbind(ones, X)
 		t = try(solve(t(dX)%*%dX),TRUE)
-		if (class(t) == "try-error") {
+		if (is(t,"try-error")) {
 			stop("error: design matrix with intercept is not full rank; set constantMean = 1")
 		}
 	}
