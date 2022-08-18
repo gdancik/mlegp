@@ -2,7 +2,7 @@
 
 ## mlegp: Maximum Likelihood Estimates of Gaussian Processes 
 
-Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots following Santner et al (2003) <doi:10.1007/978-1-4757-3799-8> ([link](http://link-springer-com-443.webvpn.fjmu.edu.cn/book/10.1007%2F978-1-4757-3799-8)). 
+Maximum likelihood Gaussian process modeling for univariate and multi-dimensional outputs with diagnostic plots following Santner et al (2003) <doi:10.1007/978-1-4757-3799-8> ([link](https://link.springer.com/book/10.1007/978-1-4757-3799-8)). 
 
 This is the current version of mlegp v3.1.9 available on [CRAN](https://cran.r-project.org/web/packages/mlegp/index.html). 
 
