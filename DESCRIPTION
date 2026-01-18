@@ -1,9 +1,12 @@
 Package: mlegp
 Type: Package
 Title: Maximum Likelihood Estimates of Gaussian Processes
-Version: 3.1.9
-Date: 2022-03-07
-Author: Garrett M. Dancik
+Version: 3.1.10
+Date: 2026-01-18
+Authors@R: person(given = c("Garrett", "M."),
+                  family = "Dancik",
+                  role = c("aut", "cre"),
+                  email = "dancikg@easternct.edu")
 Maintainer: Garrett M. Dancik <dancikg@easternct.edu>
 Depends: methods
 Suggests: snowfall
@@ -14,6 +17,8 @@ Description: Maximum likelihood Gaussian process modeling for
         sensitivity analysis.
 License: GPL (>= 2)
 Encoding: UTF-8
-URL:
+URL: https://github.com/gdancik/mlegp/
 NeedsCompilation: yes
 RoxygenNote: 7.1.1
+Packaged: 2026-01-19 19:45:35 UTC; dancikg
+Author: Garrett M. Dancik [aut, cre]

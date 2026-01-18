@@ -25,7 +25,7 @@
 \section{{\it mlegp}: an overview}
 Gaussian processes (GPs) are commonly used as surrogate statistical models for predicting output of computer experiments (\citealp{Santner2003}). Generally, GPs are both interpolators and smoothers of data and are effective predictors when the response surface of interest is a smooth function of the parameter space. The package {\it mlegp} finds {\it m}aximum {\it l}ikelihood {\it e}stimates of {\it G}aussian {\it p}rocesses for univariate and multi-dimensional responses, for Gaussian processes with Gaussian correlation structures; constant or linear regression mean functions; and for responses with either constant or non-constant variance that can be specified exactly or up to a multiplicative constant. Unlike traditional GP models, GP models implemented in {\it mlegp} are appropriate for modelling heteroscedastic responses where variance is known or accurately estimated. Diagnostic plotting functions, and the sensitivity analysis tools of Functional Analysis of Variance (FANOVA) decomposition, and plotting of main and two-way factor interaction effects are implemented*. Multi-dimensional output can be modelled by fitting independent GPs to each dimension of output, or to the most important principle component weights following singular value decomposition of the output. Plotting of main effects for functional output is also implemented. From within R, a complete list of functions and vignettes can be obtained by calling \lq library(help = ``mlegp")\rq.
 \vskip .2in
-\noindent *Sensitivity analysis functions are currently only available in the {\it full} version of {\it mlegp}, which is available from http://users.nsula.edu/dancikg/mlegp.
+\noindent *Sensitivity analysis functions are currently only available in the {\it full} version of {\it mlegp}, which is available from the maintainer.
 \newcommand{\sigmaNug}[1][2]{\mbox{$\sigma_{\mbox{\scriptsize e}}^#1$}}
 \renewcommand{\th}{\mbox{$^{th}$}}
 
@@ -214,7 +214,7 @@ sqrt(mean((x-predict(fit3))**2))
 
 
 \section{Sensitivity analysis}\label{sec:SA}
-For a response $y = f(x)$, where $x$ can be multidimensional, sensitivity analysis (SA) is used to (a) quantify the extent in which uncertainty in the response $y$ can be attributed to uncertainty in the design parameters $x$, and (b) characterize how the response changes as one or more design parameters are varied. General SA methods can be found in \citet{Saltelli2000}. SA using Gaussian process models, which is described in \citet{Schonlau2006}, is implemented in the full version of {\it mlegp}, which is available from http://users.nsula.edu/dancikg/mlegp. 
+For a response $y = f(x)$, where $x$ can be multidimensional, sensitivity analysis (SA) is used to (a) quantify the extent in which uncertainty in the response $y$ can be attributed to uncertainty in the design parameters $x$, and (b) characterize how the response changes as one or more design parameters are varied. General SA methods can be found in \citet{Saltelli2000}. SA using Gaussian process models, which is described in \citet{Schonlau2006}, is implemented in the full version of {\it mlegp}, which is available from the maintainer. 
 %\input{SA}
 
 
@@ -299,8 +299,8 @@ uter Model Via       Analysis of Variance and Visualization, in Screening: Metho
 
 \section*{Programming Acknowledgements}
 \begin{itemize}
-\item C code for random number generation provided by Mutsuo Saito, Makoto Matsumoto and Hiroshima University (\url{http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT})
-\item C code for L-BFGS algorithm provided by Naoaki Okazaki (\url{http://www.chokkan.org/software/liblbfgs}) 
+\item C code for random number generation provided by Mutsuo Saito, Makoto Matsumoto and Hiroshima University (\url{https://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/})
+\item C code for L-BFGS algorithm provided by Naoaki Okazaki (\url{https://www.chokkan.org/software/liblbfgs/}) 
 \end{itemize}
 
 \end{document}

@@ -1,4 +1,4 @@
-citEntry(entry="article",
+bibentry(bibtype="article",
          author = c(person(c("Garrett","M"),"Dancik"),
                     person(c("Karin","S"),"Dorman")),
          title = "{mlegp}: statistical analysis for computer models of biological systems using R",

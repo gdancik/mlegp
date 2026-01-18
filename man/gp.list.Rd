@@ -13,7 +13,7 @@ gp.list(..., param.names = NULL, UD = NULL, gp.names = NULL)
   \item{\dots}{ either a \code{list} object, where each element is a Gaussian process; or several objects of type \code{gp} }
   \item{param.names}{ optionally, the parameter names corresponding to the columns of the design matrix of all Gaussian processes. By default, this will be equal to the parameter names of the first Gaussian process in \code{\dots}}
   \item{UD}{ the UD matrix, if the Gaussian process is fit to principle component weights }
-  \item{gp.names}{ optionally, a vector of names for the Gaussian processes, defaulting to \sQuote{gp \#1}, \sQuote{gp \#2}, ...
+  \item{gp.names}{ optionally, a vector of names for the Gaussian processes, defaulting to \sQuote{gp #1}, \sQuote{gp #2}, ...
 }
 }
 
